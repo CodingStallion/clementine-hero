@@ -13,7 +13,8 @@ header {
 	*/
 	padding: 40px;
 	text-align: center;
-
+    background-image: url("../image/pattern.jpg");
+    background-repeat: repeat;
 
 
 }
@@ -25,25 +26,47 @@ h1 {
 
 }
 
+h2 {
+
+	font-size: 45px;
+	text-align: center;
+	color: hsl(12, 100%, 85%);
+}
+
+
 header img {
 
-	border-radius: 150px;
 	width: 300px;
 	border: 24px solid rgb(179, 0, 0);
+	box-shadow: /*X position*/0px /*Y position*/10px /*Blur value*/ 20px black;
+
 }
 
 .content {
 
-	max-width: 900px;
+	max-width: 100%;
+	height: auto;
 	margin: 0 auto;
-
-
+	padding: 20px 0px 40px 0px;
+	text-align: center;
+	background-color: hsl(12, 100%, 45%);
+	color: white;
 
           }
 
+ .content p{
+
+ 	font-size: 25px;
+ 	padding: 0px 40px 0px 40px;
+    text-align: center;
+
+ }
+
+
  img.big-image{
 
- 	max-width: 100%;
+ 	max-width: 95%;
+
  }
 
  p.caption {
@@ -53,26 +76,70 @@ header img {
  	font-style: italic;
  }
 
+ ol{
+
+ 	list-style: none;
+ 	margin: 0px auto;
+ 	padding: 0px 0px 40px 0px;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	max-width: 70%;
+ 
+ }
+
+ ol li {
+
+ 	border: 20px solid hsl(12, 100%, 65%);
+ 	background-color: hsl(12, 100%, 65%);
+ 	border-radius: 40px;
+ 	margin-top: 10px;
+ }
+
  ul{
 
  	list-style: none;
  	margin: 0px;
  	padding: 0px;
+ 	max-width: 70%;
+ 	margin: 0 auto;
+ 	font-size: 30px;
 
  }
 
- a {
+  .content ul li {
 
- 	color: red;
+ 	border: 20px solid hsl(12, 100%, 65%);
+ 	background-color: hsl(12, 100%, 65%);
+ 	border-radius: 40px;
+ 	margin-top: 10px;
+
+ }
+
+
+a {
+
+ 	background-color: hsl(210, 50%, 50%);
+ 	color: white;
  	text-decoration: none;
  }
 
+a:hover {
+
+    background-color: black;
+    color: white;
+
+ }
+
+
+
  footer {
 
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 40px 20px;
- 	background-color: #E6E6E6;
+ 	background-color: rgb(179, 0, 0);
  	text-align: center;
+ 	color: white;
+
 
  }
 
@@ -80,6 +147,6 @@ header img {
 
  	display: inline-block;
  	margin: 0 5px;
-
+    font-size: 20px;
 
  }
